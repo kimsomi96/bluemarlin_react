@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import logoAlt from '../img/logo-alt.png';
 
 function Tail(){
@@ -15,7 +16,7 @@ function Tail(){
                     className="fa fa-envelope-square"></i> <a
                     href="mailto:contact@pdic.co.kr">contact@pdic.co.kr</a></span></p>
 
-                <p><i className="fa fa-lock"></i> <a href="/page/privacy.html">개인정보처리방침</a></p>
+                <p><i className="fa fa-lock"></i> <Link to="/privacy">개인정보처리방침</Link></p>
                 <p>Copyright &copy; 2017 Blue Marlin All rights reserved.</p>
             </div>
             <div className="row col-md-6">

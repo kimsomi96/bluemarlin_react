@@ -1,4 +1,5 @@
 import logo from '../img/logo.png';
+import {Link} from 'react-router-dom';
 
 
 function Nav(){
@@ -19,11 +20,11 @@ function Nav(){
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">About</a>
                             <ul className="dropdown-menu">
-                                <li><a href="/page/about.html">회사소개</a></li>
-                                {/* <li> <a href="/page/history.html">연혁</a> </li> */}
-                                <li><a href="/page/organization.html">조직도</a></li>
-                                <li><a href="/page/business.html">사업영역</a></li>
-                                <li><a href="/page/location.html">오시는 길</a></li>
+                                <li><Link to="/about">회사소개</Link></li>
+                                {/* <li> <a href="/page/history.html">연혁</a> </li>*/}
+                                <li><Link to="/organization">조직도</Link></li>
+                                <li><Link to="/business">사업영역</Link></li>
+                                <li><Link to="/location">오시는 길</Link></li>
                             </ul>
                         </li>
                         <li className="dropdown nav-technology"><a href="#"
@@ -33,9 +34,9 @@ function Nav(){
                                                                    aria-expanded="false">Technology</a>
                             <ul className="dropdown-menu">
 
-                                <li><a href="/page/tech-fast-data-handling.html">Data Handling(Hadoop Based)</a></li>
-                                <li><a href="/page/tech-total-one-view-monitoring.html">Total One View</a></li>
-                                <li><a href="/page/tech-high-func.html">High Performance Function</a></li>
+                                <li><Link to="/tech-fast-data-handling">Data Handling(Hadoop Based)</Link></li>
+                                <li><Link to="/tech-total-one-view-monitoring">Total One View</Link></li>
+                                <li><Link to="/tech-high-func">High Performance Function</Link></li>
                             </ul>
                         </li>
                         <li className="dropdown"><a href="#"
@@ -43,11 +44,11 @@ function Nav(){
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">Products</a>
                             <ul className="dropdown-menu">
-                                <li><a href="/page/prdt-product-overview.html">Product Overview</a></li>
-                                <li><a href="/page/prdt-security.html">Blue Marlin Security</a></li>
-                                <li><a href="/page/prdt-iot.html">Blue Marlin IoT</a></li>
-                                <li><a href="/page/prdt-smart-factory.html">Blue Marlin 스마트공장</a></li>
-                                <li><a href="/page/prdt-platform.html">Blue Marlin Platform </a></li>
+                                <li><Link to="/prdt-overview">Product Overview</Link></li>
+                                <li><Link to="/prdt-security">Blue Marlin Security</Link></li>
+                                <li><Link to="/prdt-iot">Blue Marlin IoT</Link></li>
+                                <li><Link to="/prdt-smart-factory">Blue Marlin 스마트공장</Link></li>
+                                <li><Link to="/prdt-platform">Blue Marlin Platform </Link></li>
                             </ul>
                         </li>
                         <li className="dropdown"><a href="#"
@@ -55,8 +56,8 @@ function Nav(){
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">Demo</a>
                             <ul className="dropdown-menu">
-                                <li><a href="/page/demo.html">데모사이트</a></li>
-                                <li><a href="/page/apply-demo.html">데모신청</a></li>
+                                <li><Link to="/demo">데모사이트</Link></li>
+                                <li><Link to="/apply-demo">데모신청</Link></li>
                             </ul>
                         </li>
                         <li className="dropdown"><a href="#"
@@ -64,7 +65,7 @@ function Nav(){
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">Support</a>
                             <ul className="dropdown-menu">
-                                <li><a href="/page/support.html">고객지원</a></li>
+                                <li><Link to="/support">고객지원</Link></li>
                             </ul>
                         </li>
                     </ul>
