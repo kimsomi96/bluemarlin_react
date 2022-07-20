@@ -29,37 +29,46 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 #gnb .dropdown-menu{ border:0;box-shadow:0 0 0;}
 #gnb .dropdown-menu-box{ position:absolute; top:82px; left:0; width:100%; height:180px; display:none; background:#fff;border-bottom:2px solid #116FB4;}
 
+
+
 /* SPLASH */
-#splash{ position:relative;overflow:hidden;}
-.slides{ padding:0!important; margin:0!important;}
-.slides li{display:none; list-style:none; }
-.slides li img{width:100%;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
+
+#splash{}
+.slides{width:200vw;padding:0 !important;margin:0 !important;transition:transform 0.5s;max-height:500px;overflow: hidden;}
+.slides li{width:100vw;float: left;list-style: none;background-position: center center;}
+.slides li img{width:100%;}
+.btn-wrap{position:absolute;}
+
+/*#splash{ position:relative;overflow:hidden;}*/
+/*.slides{ padding:0!important; margin:0!important;}*/
+/*.slides li{display:none; list-style:none; }*/
+/*.slides li img{width:100%;*/
+/*    -webkit-user-select: none;*/
+/*    -khtml-user-select: none;*/
+/*    -moz-user-select: none;*/
+/*    -o-user-select: none;*/
+/*    user-select: none;*/
+/*}*/
 
 
 
-.flex-direction-nav li{ list-style:none;}
-.flex-direction-nav .flex-prev,
-.flex-direction-nav .flex-next{ position:absolute; top:50%;transform: translateY(-80px); z-index:900;transition:all .4s ease}
-#splash:hover .flex-direction-nav .flex-prev{ left:20px;}
-#splash:hover .flex-direction-nav .flex-next{ right:20px;}
-.flex-direction-nav .flex-prev{ left:-50px;}
-.flex-direction-nav .flex-next{ right:-50px;}
+/*.flex-direction-nav li{ list-style:none;}*/
+/*.flex-direction-nav .flex-prev,*/
+/*.flex-direction-nav .flex-next{ position:absolute; top:50%;transform: translateY(-80px); z-index:900;transition:all .4s ease}*/
+/*#splash:hover .flex-direction-nav .flex-prev{ left:20px;}*/
+/*#splash:hover .flex-direction-nav .flex-next{ right:20px;}*/
+/*.flex-direction-nav .flex-prev{ left:-50px;}*/
+/*.flex-direction-nav .flex-next{ right:-50px;}*/
 
-/*◀▶*/
-.flex-prev,
-.flex-next {display: block;width: 32px; font-size:8em;overflow: hidden;cursor:pointer; font-family:FontAwesome; color:#2974ad; opacity:.4; text-indent:300% }
-.flex-prev:hover,
-.flex-next:hover{ opacity:1;}
-.flex-prev::before,
-.flex-next::after {position:absolute; top:0; text-indent:0;}
-.flex-prev::before {content: "\f104"; left:0}
-.flex-next::after {content: "\f105"; right:0;}
+/*!*◀▶*!*/
+/*.flex-prev,*/
+/*.flex-next {display: block;width: 32px; font-size:8em;overflow: hidden;cursor:pointer; font-family:FontAwesome; color:#2974ad; opacity:.4; text-indent:300% }*/
+/*.flex-prev:hover,*/
+/*.flex-next:hover{ opacity:1;}*/
+/*.flex-prev::before,*/
+/*.flex-next::after {position:absolute; top:0; text-indent:0;}*/
+/*.flex-prev::before {content: "\f104"; left:0}*/
+/*.flex-next::after {content: "\f105"; right:0;}*/
 
 /* ●○ */
 .flex-control-paging{ position:absolute; width:100%; text-align:center; bottom:1em; z-index:900; margin:0; padding:0;}
