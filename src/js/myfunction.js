@@ -1,4 +1,3 @@
-
 import $ from "jquery";
 
 $(document).ready(function() {
@@ -56,23 +55,22 @@ if(selected!=="nolink"){
 });// /doc ready
 
 
-
-
-
-
-
-//Vanilla JS
-// window.onload = function(){ // 윈도우 로딩시
-//     var nav = document.querySelector("ul.nav");
-//     var navWidth = nav.offsetWidth;
-//     var dropdownMenu = document.querySelector(".dropdown-menu");
-//     var dropdownMenuBox = document.querySelector(".dropdown-menu-box");
-//     nav.addEventListener('mouseover', function(){ // nav에 마우스오버되면
-//         console.log("mouseover");
-//         //if(navWidth > 767){ //만약 nav의 너비가 767 이하라면
-//         var menuHeight = dropdownMenu.offsetWidth;
-//         dropdownMenu.setAttribute("style","display:block;");
+// //Vanilla JS
+// window.onload = function () { // 윈도우 로딩시
+//     // var nav = document.querySelector("ul.nav");
+//     // var navWidth = nav.offsetWidth;
+//     // var dropdownMenu = document.querySelector(".dropdown-menu");
+//     // var dropdownMenuBox = document.querySelector(".dropdown-menu-box");
+//     // nav.addEventListener('mouseover', function () { // nav에 마우스오버되면
+//     //     console.log("mouseover");
+//     //     //if(navWidth > 767){ //만약 nav의 너비가 767 이하라면
+//     //     var menuHeight = dropdownMenu.offsetWidth;
+//     //     dropdownMenu.setAttribute("style", "display:block;");
+//     //
+//     // })
 //
-//         //}
-//     })
+//
+//     const splash = document.getElementById("#splash");
+//
+//
 // }

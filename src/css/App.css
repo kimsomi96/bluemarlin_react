@@ -1,8 +1,8 @@
 /* footer 하단에 고정 */
 
-div.wrapper{min-height:100vh;position:relative;padding-bottom:275px;}
-#copyright{width:100%;position:absolute;bottom:0;left:0;}
+/*div.wrapper{min-height:100vh;position:relative;padding-bottom:275px;}*/
+/*#copyright{width:100%;position:absolute;bottom:0;left:0;}*/
 
-@media (max-width: 767px){
-    div.wrapper{padding-bottom:360px;}
-}
+/*@media (max-width: 767px){*/
+/*    div.wrapper{padding-bottom:360px;}*/
+/*}*/
