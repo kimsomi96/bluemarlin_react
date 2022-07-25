@@ -16,7 +16,7 @@ function Nav(){
                 <div className="collapse navbar-collapse" id="nav-top">
                     <ul className="nav navbar-nav navbar-right">
                         <li className="dropdown"><a href="#"
-                                                    className="dropdown-toggle <?php if($gr_id=='foo'){echo 'active';}?>"
+                                                    className="dropdown-toggle" /*<?php if($gr_id=='foo'){echo 'active';}?>*/
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">About</a>
                             <ul className="dropdown-menu">
@@ -28,7 +28,7 @@ function Nav(){
                             </ul>
                         </li>
                         <li className="dropdown nav-technology"><a href="#"
-                                                                   className="dropdown-toggle <?php if($gr_id=='foo'){echo 'active';}?>"
+                                                                   className="dropdown-toggle" /*<?php if($gr_id=='foo'){echo 'active';}?>*/
                                                                    data-toggle="dropdown" role="button"
                                                                    aria-haspopup="true"
                                                                    aria-expanded="false">Technology</a>
@@ -40,7 +40,7 @@ function Nav(){
                             </ul>
                         </li>
                         <li className="dropdown"><a href="#"
-                                                    className="dropdown-toggle <?php if($gr_id=='foo'){echo 'active';}?>"
+                                                    className="dropdown-toggle" /*<?php if($gr_id=='foo'){echo 'active';}?>*/
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">Products</a>
                             <ul className="dropdown-menu">
@@ -52,7 +52,7 @@ function Nav(){
                             </ul>
                         </li>
                         <li className="dropdown"><a href="#"
-                                                    className="dropdown-toggle <?php if($gr_id=='foo'){echo 'active';}?>"
+                                                    className="dropdown-toggle" /*<?php if($gr_id=='foo'){echo 'active';}?>*/
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">Demo</a>
                             <ul className="dropdown-menu">
@@ -61,7 +61,7 @@ function Nav(){
                             </ul>
                         </li>
                         <li className="dropdown"><a href="#"
-                                                    className="dropdown-toggle <?php if($gr_id=='foo'){echo 'active';}?>"
+                                                    className="dropdown-toggle" /*<?php if($gr_id=='foo'){echo 'active';}?>*/
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">Support</a>
                             <ul className="dropdown-menu">

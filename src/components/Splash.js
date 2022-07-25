@@ -6,7 +6,7 @@ import splashMO02 from '../img/splash-mo02.jpg';
 function Splash() {
     return (
         <div>
-            <div id="splash" style={{"overflow": "hidden",}}>
+            <div id="splash">
                 <ul className="slides">
                     <li><img src={splash01} alt="" className="hidden-xs"/><img src={splashMO01} alt=""
                                                                                className="visible-xs-block hidden-sm"/>
@@ -15,10 +15,10 @@ function Splash() {
                                                                                className="visible-xs-block hidden-sm"/>
                     </li>
                 </ul>
-            </div>
-            <div className="btn-wrap">
-                <button className="slideBtn1">1</button>
-                <button className="slideBtn2">2</button>
+                {/*<div className="btn-wrap">*/}
+                {/*    <button className="slideBtn1"></button>*/}
+                {/*    <button className="slideBtn2"></button>*/}
+                {/*</div>*/}
             </div>
         </div>
     );
