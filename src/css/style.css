@@ -53,10 +53,12 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 .slides li{width:100vw;float: left;list-style: none;background-position: center center;}
 .slides li img{width:100%;}
 
-.btn-wrap{position:absolute;left:50%;transform:translate(-50%);z-index: 1;}
 
-.nav:hover .dropdown-menu{display:block;}
 
+
+
+
+/*.btn-wrap{position:absolute;left:50%;transform:translate(-50%);z-index: 1;}*/
 /*.slideBtn1, .slideBtn2{border-radius: 50px;height:18px;width:18px;background-color:red;border:none;}*/
 
 
@@ -277,9 +279,9 @@ form .btn{ margin:15px 0;}
 @media (min-width: 768px) {
     #gnb{min-width:1200px}
     .process>div{ display:flex;}
-}
+    .nav:hover .dropdown-menu{display:block;}
+    }
 @media (max-width: 767px) {
-    .nav:hover .dropdown-menu{display:none;}
     .navbar-header{ float:none;}
     .navbar-toggle{ position:absolute; right:5px; top:5px;}
     .top-logo{ float:none;text-align:center; padding-bottom:10px;}
