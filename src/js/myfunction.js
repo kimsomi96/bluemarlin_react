@@ -28,6 +28,7 @@ window.onload = function () {
 
     const nav = document.querySelector('ul.nav');
     const winWidth = window.innerWidth;
+    const dropdownMenu = document.querySelector('.dropdown-menu');
     const dropdownMenuBox = document.querySelector('.dropdown-menu-box');
 
     function displayNone() {
