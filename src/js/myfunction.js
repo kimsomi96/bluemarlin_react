@@ -45,6 +45,21 @@ window.onload = function () {
     } else {
         return null;
     }
+    
+    
+    // 관련 사이트
+    const relatedSite = document.querySelector(".related_site select");
+
+    function moveSite(){
+        const selected = relatedSite.children.valueOf();
+        if(selected !== "nolink"){
+            window.open(selected, '_blank');
+        }
+    }
+
+    relatedSite.addEventListener("onchange", moveSite);
+
+
 
 }
 
@@ -52,3 +67,12 @@ window.onload = function () {
 window.onresize = function () {
     document.location.reload();
 }
+
+
+// $(".related_site select").change(function() {
+//     var selected = $(this).children("option:selected").val();
+//     if(selected!="nolink"){
+//         window.open(selected,'_blank');
+//         //window.location.href=selected;
+//     }
+// });

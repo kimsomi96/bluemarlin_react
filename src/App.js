@@ -23,8 +23,8 @@ import ApplyDemo from "./routes/ApplyDemo";
 import Support from "./routes/Support";
 import Privacy from "./routes/Privacy";
 import "./js/myfunction";
+// import "./js/bootstrap.min";
 // import "./js/jquery.flexslider-min";
-import "./js/bootstrap.min";
 
 
 function App() {
