@@ -57,6 +57,16 @@ window.onload = function () {
         }
     }
 
+
+// $(".related_site select").change(function() {
+//     var selected = $(this).children("option:selected").val();
+//     if(selected!="nolink"){
+//         window.open(selected,'_blank');
+//         //window.location.href=selected;
+//     }
+// });
+
+
     relatedSite.addEventListener("onchange", moveSite);
 
 
@@ -69,10 +79,3 @@ window.onresize = function () {
 }
 
 
-// $(".related_site select").change(function() {
-//     var selected = $(this).children("option:selected").val();
-//     if(selected!="nolink"){
-//         window.open(selected,'_blank');
-//         //window.location.href=selected;
-//     }
-// });
