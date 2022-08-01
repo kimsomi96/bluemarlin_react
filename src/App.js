@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './css/App.css';
 import './css/font-awesome.min.css';

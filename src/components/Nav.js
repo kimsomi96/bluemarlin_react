@@ -15,7 +15,7 @@ function Nav(){
                     <a className="top-logo" href="/"><img src={logo} alt="BLUE MARLIN"/></a></div>
                 <div className="collapse navbar-collapse" id="nav-top">
                     <ul className="nav navbar-nav navbar-right">
-                        <li className="dropdown"><a href="#"
+                        <li className="dropdown"><a href="#!"
                                                     className="dropdown-toggle" /*<?php if($gr_id=='foo'){echo 'active';}?>*/
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">About</a>
@@ -27,7 +27,7 @@ function Nav(){
                                 <li><Link to="/location">오시는 길</Link></li>
                             </ul>
                         </li>
-                        <li className="dropdown nav-technology"><a href="#"
+                        <li className="dropdown nav-technology"><a href="#!"
                                                                    className="dropdown-toggle" /*<?php if($gr_id=='foo'){echo 'active';}?>*/
                                                                    data-toggle="dropdown" role="button"
                                                                    aria-haspopup="true"
@@ -39,7 +39,7 @@ function Nav(){
                                 <li><Link to="/tech-high-func">High Performance Function</Link></li>
                             </ul>
                         </li>
-                        <li className="dropdown"><a href="#"
+                        <li className="dropdown"><a href="#!"
                                                     className="dropdown-toggle" /*<?php if($gr_id=='foo'){echo 'active';}?>*/
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">Products</a>
@@ -51,7 +51,7 @@ function Nav(){
                                 <li><Link to="/prdt-platform">Blue Marlin Platform </Link></li>
                             </ul>
                         </li>
-                        <li className="dropdown"><a href="#"
+                        <li className="dropdown"><a href="#!"
                                                     className="dropdown-toggle" /*<?php if($gr_id=='foo'){echo 'active';}?>*/
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">Demo</a>
@@ -60,7 +60,7 @@ function Nav(){
                                 <li><Link to="/apply-demo">데모신청</Link></li>
                             </ul>
                         </li>
-                        <li className="dropdown"><a href="#"
+                        <li className="dropdown"><a href="#!"
                                                     className="dropdown-toggle" /*<?php if($gr_id=='foo'){echo 'active';}?>*/
                                                     data-toggle="dropdown" role="button" aria-haspopup="true"
                                                     aria-expanded="false">Support</a>

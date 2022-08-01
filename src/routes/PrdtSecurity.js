@@ -21,17 +21,17 @@ function PrdtSecurity() {
                     <div className="row">
                         <div className="col-md-7">
                             <ol className="detail-list">
-                                <li><img src={icoSecurity1}/>
+                                <li><img src={icoSecurity1} alt ="" />
                                     <p>보안장비와 네트워크 환경 등에서 발생되는, 실시간 Big-Data의 수집 및 저장 ( Hadoop Architecture Optimizing
                                         tech)
                                         속도가 타사제품 성능 대비 10배 이상 빠름 <br/>
                                         (속도 : 100,000EPS 이상, &middot; 로그량 : A통신사 &middot; 방화벽 Log 5 TB 기준)</p>
                                 </li>
-                                <li><img src={icoSecurity2}/>
+                                <li><img src={icoSecurity2} alt ="" />
                                     <p>다수 장비 로그의 동시수집 및 저장이 가능하며, 하나의 화면 (One View)에서 모니터링이 가능 <br/>
                                         ( Multi Device to One Point View Monitoring )</p>
                                 </li>
-                                <li><img src={icoSecurity3}/>
+                                <li><img src={icoSecurity3} alt ="" />
                                     <p>저장된 Big-Data의 Biz 요구사항 발생 시 (분석데이터) , 수 분, 수 초 내 데이터 추출 및 조회 (Hadoop Architecture
                                         Indexing Tech.) 가 가능하여, Biz 요구사항 즉시 대응이 가능 (On Time)</p>
                                 </li>

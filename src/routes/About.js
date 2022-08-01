@@ -11,7 +11,7 @@ function About() {
                 {/*<!-- / .page-title -->*/}
                 <div className="container">
                     <h3>회사소개</h3>
-                    <img src={aboutLogo} className="img-responsive center-block about-logo"/>
+                    <img src={aboutLogo} alt ="" className="img-responsive center-block about-logo"/>
                         <p className="about-slogan"> (주) 피디정보통신은 IT Business를 바탕으로 IT Security Solution Biz & ITO 를
                             기본으로 <br/>
                                 최신 IT 트렌드를 접목한 비즈니스를 지속적으로 발굴하고 사업 영역을 확장시켜 나가고 있습니다.</p>

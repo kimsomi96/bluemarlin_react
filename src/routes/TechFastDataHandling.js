@@ -13,7 +13,7 @@ function TechFastDataHandling() {
                 <div className="container">
                     <h3>Fast Data Handling (Hadoop Based)</h3>
                     <figure>
-                        <figcaption><img src={techFastDataHandling} className="img-responsive center-block"/>
+                        <figcaption><img src={techFastDataHandling} className="img-responsive center-block" alt ="" />
                         </figcaption>
                     </figure>
                 </div>

@@ -1,4 +1,5 @@
 /*global kakao */
+import React from 'react';
 import {useRef, useEffect} from "react";
 
 const options = {
